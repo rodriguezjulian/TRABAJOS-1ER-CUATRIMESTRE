@@ -180,9 +180,9 @@ int main()
             break;
             case 11:
             	if(controller_Salir(listaSelecciones, listaJugadores, listaJugadoresOriginal, idMax)==0)
-				{
+		{
             		flagSalida=1;
-				}
+		}
             break;
         }
     }while(flagSalida==0);
